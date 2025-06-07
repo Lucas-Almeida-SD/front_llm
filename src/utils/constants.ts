@@ -1,0 +1,1 @@
+export const LLMs = ['LLAMA', 'DEEPSEEK', 'GEMA'];
