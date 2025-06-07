@@ -1,12 +1,9 @@
-type ButtonProps = {
-  title: string,
-}
+import { IoSend } from "react-icons/io5";
+import styles from './styles.module.scss';
 
-export default function Button(props: ButtonProps) {
-  const { title } = props;
+export default function Button() {
+
   return(
-    <div>
-      <button type="button" className="btn btn-primary">{title}</button>
-    </div>
+      <button type="button" className={styles.send_btn}>{<IoSend className={styles.send_icon}/>}</button>
   );
 }
