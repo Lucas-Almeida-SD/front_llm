@@ -1,0 +1,17 @@
+.question_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form_question_content {
+  border: 1px solid #c2c2c2;
+  border-radius: 1.8rem;
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding-right: 2.8rem;
+  align-items: center;
+}
