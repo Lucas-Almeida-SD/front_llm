@@ -2,7 +2,7 @@ import Form from "@/components/molecules/Form";
 import Header from "@/components/molecules/Header";
 import { ProviderLLMquestion } from "@/contexts/LLMquestion";
 
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Home.module.scss';
 
 export default function Home() {
   return (
