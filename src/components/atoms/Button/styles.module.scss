@@ -1,0 +1,19 @@
+.send_btn {
+  padding: .4rem;
+  border: none;
+  background-color: black;
+  border-radius: 50%;
+  height: 2.4rem;
+  width: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  right: 0.8rem;
+}
+
+.send_icon {
+  font-size: 1.2rem;
+  color: white;
+}
