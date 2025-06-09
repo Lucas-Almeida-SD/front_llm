@@ -1,0 +1,12 @@
+.login_page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main_content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
